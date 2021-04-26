@@ -6,6 +6,7 @@ var Constants = {
     platform: 'web',
     key1: 'value1',
     key2: 'value2',
+    key3: 'value3',
     Messages: {
         ErrorMessages: {
             NoToken: 'A token must be specified.',
