@@ -2,7 +2,7 @@ import Polyfill from './polyfill';
 import Types from './types';
 import Constants from './constants';
 import mParticleInstance from './mp-instance.js';
-import _BatchValidator from './mockBatchCreator';
+// import _BatchValidator from './mockBatchCreator';
 
 if (!Array.prototype.forEach) {
     Array.prototype.forEach = Polyfill.forEach;
@@ -447,7 +447,7 @@ var mparticleInstance = new mParticle();
 
 if (typeof window !== 'undefined') {
     window.mParticle = mparticleInstance;
-    window.mParticle._BatchValidator = new _BatchValidator();
+    // window.mParticle._BatchValidator = new _BatchValidator();
 }
 
 export default mparticleInstance;
