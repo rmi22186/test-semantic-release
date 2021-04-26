@@ -5,6 +5,7 @@ var Constants = {
     sdkVendor: 'mparticle',
     platform: 'web',
     key1: 'value1',
+    key2: 'value2',
     Messages: {
         ErrorMessages: {
             NoToken: 'A token must be specified.',
